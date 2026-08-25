@@ -1,0 +1,31 @@
+Employee Records Management (with Git push,pull,clone and fetch)
+Scenario: Employee Record Management System
+A company maintains an Employee Records Repository on GitHub. The HR team stores employee 
+information in a file named employees.txt. You are assigned as a DevOps trainee to maintain this 
+repository using Git Bash.
+Practical Task
+1. Clone the given GitHub repository to your local system using Git Bash.
+2. Create a file named employees.txt containing at least 5 employee records with the following fields: 
+Employee ID, Employee Name, Department, Designation, and Salary.
+3. Add the file to the local Git repository and commit the changes with a meaningful commit message.
+4. Push the employee records from the local repository to GitHub.
+5. Assume that another HR team member has added a new employee record directly to GitHub.
+6. Use git fetch to retrieve the latest changes from the remote GitHub repository without modifying 
+your local working files. Compare your local branch with the remote branch and identify whether 
+the remote repository contains any new employee records.
+7. Use git pull to bring the latest employee record into your local working repository.
+8. Add two more employee records locally, commit the changes, and push them to GitHub.
+9. Verify that the final employees.txt contains all employee records and that the latest version is 
+available on GitHub.
+For Example: To understand the logic 
+To view the actual differences in employees.txt:
+git diff HEAD origin/main
+The newly added employee record will not yet appear in the local working file after git fetch. 
+Run git pull to integrate the remote changes into the local repository:
+git pull origin main
+Example Employee Records
+E101  Harpreet  IT         Developer       50000
+E102  Aman      HR         Manager         60000
+E103  Simran    Finance    Accountant      45000
+E104  Raj       Sales      Executive       40000
+E105  Neha      IT         Tester          42000
