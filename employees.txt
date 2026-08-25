@@ -5,3 +5,4 @@ E102		Aman      	HR         	Manager         60000
 E103		Simran    	Finance    	Accountant      45000
 E104  		Raj       	Sales      	Executive       40000
 E105  		Neha      	IT         	Tester          42000
+E106        Pranay      IT          Developer       90000
